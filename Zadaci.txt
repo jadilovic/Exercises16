@@ -1,0 +1,43 @@
+1. Napisati program koji èita rijeèi iz tekstualnog filea te ispisuje iste te rijeèi u rastuæem abecednom redu. Program treba da pita korisnika da unese ime filea, te: 
+
+
+a. da li korisnik želi da ispiše sve rijeèi, ukljuèujuæi duplikate.
+b. da li korisnik želi da ispiše samo unikatne rijeèi, ne ukljuèujuæi duplikate. 
+
+2. Napisati program koji pita korisnika da unese neodreðeni broj cijelih brojeva (0 prekida unos). Nakon što je korisnik unio brojeve, pitati korisnika da li želi: 
+
+a. da sortira brojeve? (sort)
+b. da promiješa brojeve? (shuffle)
+c. da sortira brojeve u silazeæem redosljedu? (reverse sort)
+
+Nakon svake izabrane opcije, ispisati brojeve na konzoli. Ne pohranjivati duplikate brojeva. 
+
+3. Napisati program koji pita korisnika da unose neodreðeni broj cijelih brojeva (0 prekida unos). Nakon što korisnik unese cijele brojeve, program treba da pita korisnika:
+
+a. da li želi da ispiše zbir svih unesenih brojeva? 
+b. da li želi da ispiše prosjek svih unesenih brojeva? 
+c. da li želi da ispiše zbir svih: 
+i. parnih brojeva?
+ii. neparnih brojeva?
+iii. brojeva na parnim pozicijama?
+iv. brojeva na neparnim pozicijama?
+d. da li želi da ispiše sve unikatne brojeve?
+e. da li želi da ispiše sve brojeve koji se ponavljaju više od jednom? 
+
+4. Napisati program koji pohranjuje 5 miliona cijelih brojeva u listu (ArrayListu, LinkedListu) te testira i ispisuje vrijeme potrebno da se prodje kroz listu i ispise svaki element na konzoli: 
+
+a. koristeæi se get(index) metodom
+b. koristeæi se foreach petljom / iteratorom. 
+
+5. Napisati program koji pita korisnika da proslijedi ime filea. Nakon što je korisnik proslijedio ime filea, program treba da: 
+
+a. ispiše broj unikatnih rijeèi u fileu
+b. ukupan broj rijeèi u fileu
+c. broj samoglasnika u fileu
+d. broj suglasnik u fileu
+
+6. Napisati program koji pita korisnika da proslijed ime filea. Nakon što je korisnik proslijedio ime filea, program pita korisnika da unese neku rijeè. Nakon unešene rijeèi, program treba da: 
+
+a. ispiše koliko puta se data rijeè pojavljuje u fileu
+b. poziciju u tekstu na kojoj se rijeè pojavljuje (broj reda, poziciju rijeèi u datom redu)
+
