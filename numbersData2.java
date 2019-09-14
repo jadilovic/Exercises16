@@ -80,8 +80,17 @@ public class numbersData2 {
 	}
 
 	private static void repeatedNumbersOnly(ArrayList<Integer> enteredNums) {
-		// TODO Auto-generated method stub
-		
+		Set<Integer> uniqueNums = new HashSet<>();
+		for(int num: enteredNums)
+			uniqueNums.add(num);
+		for(Integer num: uniqueNums)
+			enteredNums.remove(num);
+		Set<Integer> repeatedNums = new HashSet<>();
+		for(int num: enteredNums)
+			repeatedNums.add(num);
+		System.out.print("Repeated entered numbers are: ");
+		for(int num: repeatedNums)
+			System.out.print(num + " ");
 	}
 
 	private static void uniqueNumbersOnly(ArrayList<Integer> enteredNums) {
